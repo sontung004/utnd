@@ -1,0 +1,25 @@
+#search-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #search-card {
+    background-color: #F0F0F0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    max-width: 300px;
+  }
+  
+  #search-question {
+    font-weight: bold;
+  }
+  
+  #search-answer {
+    color: #333;
+  }
+  

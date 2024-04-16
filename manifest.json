@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "Extension Văn bản Tô Đen",
+  "version": "1.0",
+  "description": "Extension để tô đen văn bản và hiển thị kết quả từ data.json",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://*/*"],
+      "js": ["content_script.js", "button.js", "card.js"],
+      "css": ["style.css"]
+    }
+  ],
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
